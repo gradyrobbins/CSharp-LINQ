@@ -157,8 +157,15 @@ namespace Linq_exercises
             new Customer(){ Name="Tina Fey", Balance=1000000.00, Bank="CITI"},
             new Customer(){ Name="Sid Brown", Balance=49582.68, Bank="CITI"}
         };
-            
 
+            // Given the same customer set, display how many millionaires per bank.
+        // Ref: https://stackoverflow.com/questions/7325278/group-by-in-linq
+
+        // Example Output:
+        // WF 2
+        // BOA 1
+        // FTB 1
+        // CITI 1
 
     }
 }
